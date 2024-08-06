@@ -1,10 +1,5 @@
 package bibliotecaparte3;
 
-import bibliotecaparte3.DAO;
-import bibliotecaparte3.Emprestimo;
-import bibliotecaparte3.Livro;
-import bibliotecaparte3.Usuario;
-import bibliotecaparte3.UsuarioDAO;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;

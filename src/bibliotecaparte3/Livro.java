@@ -1,7 +1,5 @@
 package bibliotecaparte3;
 
-import bibliotecaparte3.DAO;
-import bibliotecaparte3.Obra;
 import java.io.*;
 
 public class Livro extends Obra implements DAO<Livro> {

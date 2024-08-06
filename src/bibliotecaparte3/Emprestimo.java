@@ -1,7 +1,5 @@
 package bibliotecaparte3;
 
-import bibliotecaparte3.Livro;
-import bibliotecaparte3.Usuario;
 import java.time.LocalDate;
 import java.time.LocalTime;
 

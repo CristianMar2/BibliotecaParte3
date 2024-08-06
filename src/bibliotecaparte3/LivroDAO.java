@@ -1,8 +1,6 @@
 package bibliotecaparte3;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class LivroDAO implements DAO<Livro> {
 
