@@ -1,4 +1,4 @@
-package bibliotecaparte3;
+package models;
 
 /*Em nosso código, ele fica visível na classe Obra e suas subclasses (Fotografia, MidiaAudio, Livro). 
 Cada uma dessas subclasses substitui o método abrir e fechar, que é definido na classe base Obra. 

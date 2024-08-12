@@ -1,4 +1,4 @@
-package bibliotecaparte3;
+package models;
 
 public class AreaConhecimento
 {
