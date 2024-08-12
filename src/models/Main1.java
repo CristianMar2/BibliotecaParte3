@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main1 {
 
     // Constante que define o arquivo de credenciais
-    private static final String CREDENTIALS_FILE = "credenciais.txt";
+    private static final String arquivoCredencial = "credenciais.txt";
     // Lista para armazenar credenciais de funcionários
     private static List<String[]> funcionarios = new ArrayList<>();
     // Lista para armazenar credenciais de usuários
@@ -67,7 +67,7 @@ public class Main1 {
     // Método para carregar as credenciais do arquivo
     private static void carregarCredenciais() throws IOException {
         // Abre o arquivo de credenciais para leitura
-        try (BufferedReader reader = new BufferedReader(new FileReader(CREDENTIALS_FILE))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(arquivoCredencial))) {
             String linha;
             // Lê cada linha do arquivo
             while ((linha = reader.readLine()) != null) {
@@ -106,7 +106,7 @@ public class Main1 {
                 System.out.println("Login successful!");
                 break;
             } else {
-                System.out.println("Invalid credentials. Please try again.");
+                System.out.println("Credênciais inválidas. Tente novamente.");
             }
         }
     }
