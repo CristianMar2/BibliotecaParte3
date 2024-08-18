@@ -1,5 +1,6 @@
-package models;
+package dao;
 
+import models.*;
 import java.io.*;
 
 public class UsuarioDAO implements DAO<Usuario> {

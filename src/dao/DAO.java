@@ -1,5 +1,6 @@
-package models;
+package dao;
 
+import models.*;
 import java.io.IOException;
 
 public interface DAO<T> {

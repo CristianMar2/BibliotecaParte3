@@ -1,5 +1,6 @@
 package models;
 
+import dao.DAO;
 import java.io.*;
 
 public class Livro extends Obra implements DAO<Livro> {
